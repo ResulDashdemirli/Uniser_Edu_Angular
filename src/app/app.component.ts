@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  username = " Hello World ";
+  serverCreated = false;
+  serverCreationStatus = "No servers Created"
+  showSecret = false;
+
+  Clear(){
+    this.username = '';
+  }
+  onCreateServer(){ 
+        this.serverCreated = true;
+      this.serverCreationStatus= "Server was created! Name is  " + this.username;
+  }
 }

@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.search {
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 25px;
+    text-align: center;
+    background-color: white;
+}
+#clear {
+    margin-top: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+}
+#clear:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    transition: 0.5s all;
+}
+.add_server{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid blue;
+    transition: 0.5s all;
+}
+.add_server:hover {
+    background-color: green;
+    color: white;
+}
